@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Walter+Turncoat&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  *, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  :focus, :active {
+    outline: none;
+  }
+  
+  a:focus, a:active {
+    outline: none;
+  }
+  
+  nav, footer, header, aside {
+    display: block;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-style: 100%;
+    line-height: 1;
+    font-style: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  input, button, textarea {
+    font-family: inherit;
+  }
+  
+  input::-ms-clear {
+    display: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  
+  a, a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  ul li {
+    list-style-type: none;
+  }
+  
+  img {
+    vertical-align: top;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-style: inherit;
+    font-weight: 400;
+  }
+  /*__________________________*/
+body{
+    background-image: url('/imgs/background.png');
+}
+.all{
+    margin: 5% 5%;
+    -webkit-box-shadow: -6px 6px 14px 6px rgba(34, 60, 80, 0.24);
+    -moz-box-shadow: -6px 6px 14px 6px rgba(34, 60, 80, 0.24);
+    box-shadow: -6px 6px 14px 6px rgba(34, 60, 80, 0.24);
+}
+/* Шапка сайта */
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-size: 20px;
+    
+}
+.logo{
+    width: 4%;
+    height: auto;
+}
+.hr1{
+    border: 0;
+    clear:both;
+    display:block;
+    width: 15%;               
+    background-color: gray;
+    height: 1px;
+}
+.questions{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.call{
+    font-size: 13px;
+}
+.number{
+    font-size: 20px;
+    font-weight: 700;
+}
+/* 1 блок */
+.main1{
+    margin-top: 60px;
+    padding: 0 3%;
+}
+.section{
+    display: flex;
+    
+}
+.text_block1{
+    margin: 5% 0;
+    max-width: 30%;
+}
+.tour_operator{
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+}
+.hr2{
+    margin: 10px 0 15px 0;
+    border: 0;
+    clear:both;
+    display:block;
+    width: 15%;               
+    background: linear-gradient(to right, #A591FB, #FFFFFF);;
+    height: 2px;
+}
+.tvy_header{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+}
+.text_block_text{
+    margin-top: 20px;
+    font-size: 23px;
+    font-family: "DM Sans", sans-serif;
+}
+
+/* 2 блок */
+.main2{
+    margin-top: 100px;
+    padding: 0 3%;
+}
+.section2{
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+}
+.section2_about{
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+}
+.section2_header{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+}
+.section2_text_p{
+    margin-top: 20px;
+    font-size: 23px;
+    font-family: "DM Sans", sans-serif;
+}
+.hr3{
+    margin: 10px 0 15px 0;
+    border: 0;
+    clear:both;
+    display:block;
+    width: 15%;               
+    background: linear-gradient(to right, #A591FB, #FFFFFF);;
+    height: 2px;
+}
+
+/* Туры */ 
+.tours_name{
+    font-family: "DM Sans", sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* spb */
+.main3{
+    padding: 0 3%;
+    text-align: center;
+}
+.spb_header{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+}
+.date_spb{
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    margin: 18px 0;
+}
+.spb_imgs{
+    display: flex;
+    justify-content: space-around;
+}
+.download_pdf{
+    font-size: 20px;
+    margin: 70px 0;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    width: 280px;
+    height: 60px;
+    color: white;
+    background-color: #A591FB;
+    border-radius: 15px;
+}
+.download_pdf::after{
+    content: '';
+    display: inline-block;
+    background-image: url("/imgs/arrow.png");
+    margin-left: 10px;
+    width: 21px;
+    height: 15px;
+    margin: auto 10px;
+}
+
+/* orenburg */ 
+/* spb */
+.main4{
+    padding: 0 3%;
+    text-align: center;
+}
+.orenburg_header{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+}
+.date_orenburg{
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    margin: 18px 0;
+}
+.orenburg_imgs{
+    display: flex;
+    justify-content: space-around;
+}
+.download_pdf{
+    font-size: 20px;
+    margin: 70px 0;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    width: 280px;
+    height: 60px;
+    color: white;
+    background-color: #A591FB;
+    border-radius: 15px;
+}
+.download_pdf::after{
+    content: '';
+    display: inline-block;
+    background-image: url("/imgs/arrow.png");
+    margin-left: 10px;
+    width: 21px;
+    height: 15px;
+    margin: auto 10px;
+}
+
+/* footer */ 
+.main5{
+    margin-top: 100px;
+    padding: 0 3%;
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 70px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.socials{
+    display: flex;
+    gap: 25px;
+}
+.footer_logo_img{
+    width: 5%;
+    height: auto;
+}
+.footer_p{
+    font-size: 18px;
+}
+.footer_number{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.tm{
+    margin-top: 50px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+/* font-family: "Montserrat", sans-serif; */
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a{
+  text-decoration: none;
+  color: black;
+}
+.download_a:active, /* активная/посещенная ссылка */
+.download_a:hover,  /* при наведении */
+.download_a{
+  text-decoration: none;
+  color: white;
+}
+
+.spb_imgs, .orenburg_imgs{
+    flex-wrap: wrap; 
+}
+.spb1, .spb2, .spb3, .orb1, .orb2, .orb3{
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1545px){
+    .section1_img{
+        width: 90%;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 1260px){
+    .section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text_block1{
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .hr2{
+        margin: 0 auto;
+    }
+    .hr3{
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 1155px){
+    .section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text_block1{
+        max-width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .header{
+        font-size: 13px;
+    }
+    .logo{
+        width: 7%;
+    }
+    .call{
+        font-size: 10px;
+    }
+    .number{
+        font-size: 15px;
+    }
+    /* 1 блок */
+    .tvy_header{
+        margin-top: 30px;
+        font-size: 32px;
+    }
+    .text_block_text{
+        font-size: 18px;
+    }
+    /* 2 block */
+    .section2_header{
+        font-size: 32px;
+    }
+    .section2_text_p{
+        font-size: 18px;
+    }
+    
+    .spb_header{
+        margin-top: 20px;
+        font-size: 32px;
+    }
+    .date_spb{
+        font-size: 16px;
+    }
+    
+    /* orenburg */ 
+    .orenburg_header{
+        font-size: 32px;
+    }
+    .date_orenburg{
+        font-size: 16px;
+    }
+    
+    /* footer */ 
+    .main5{
+        margin-top: 100px;
+        padding: 0 3%;
+        font-family: "DM Sans", sans-serif;
+        margin-bottom: 70px;
+    }
+}
+
+/* 2 block */
+@media only screen and (max-width: 1100px){
+    .section2{
+        flex-wrap: wrap;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 510px){
+    .spb1, .spb2, .spb3, .orb1, .orb2, .orb3{
+        max-width: 95%;
+    }
+    .footer_logo_img{
+        width: 10%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .header{
+        font-size: 10px;
+    }
+    .logo{
+        width: 7%;
+    }
+    .call{
+        font-size: 10px;
+    }
+    .number{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .section2_fly{
+        max-width: 90%;
+    }
+    .header{
+        flex-direction: column;
+        gap: 30px;
+        font-size: 14px;
+    }
+    .hr1{
+        display: none;
+    }
+    .logo{
+        width: 10%;
+    }
+    .call{
+        font-size: 13px;
+    }
+    .number{
+        font-size: 15px;
+    }
+    /* 1 блок */
+    .tour_operator{
+        font-size: 15px;
+    }
+    .tvy_header{
+        margin-top: 30px;
+        font-size: 24px;
+    }
+    .text_block_text{
+        font-size: 14px;
+    }
+    /* 2 block */
+    .section2_header{
+        font-size: 24px;
+    }
+    .section2_about{
+        font-size: 15px;
+    }
+    .section2_text_p{
+        font-size: 14px;
+    }
+    
+    .spb_header{
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    .date_spb{
+        font-size: 16px;
+    }
+    
+    /* orenburg */ 
+    .orenburg_header{
+        font-size: 32px;
+    }
+    .date_orenburg{
+        font-size: 16px;
+    }
+    
+    /* footer */ 
+    .main5{
+        margin-top: 100px;
+        padding: 0 3%;
+        font-family: "DM Sans", sans-serif;
+        margin-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 365px){
+    .download_pdf{
+        font-size: 14px;
+        margin: 70px 0;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 700;
+        width: 150px;
+        height: 35px;
+        color: white;
+        background-color: #A591FB;
+        border-radius: 15px;
+    }
+    .download_pdf::after{
+        content: '';
+    }
+}
