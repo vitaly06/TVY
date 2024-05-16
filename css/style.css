@@ -76,7 +76,7 @@
   }
   /*__________________________*/
 body{
-    background-image: url('/imgs/background.png');
+    background-image: url('imgs/background.png');
 }
 .all{
     margin: 5% 5%;
@@ -230,7 +230,7 @@ body{
 .download_pdf::after{
     content: '';
     display: inline-block;
-    background-image: url("/imgs/arrow.png");
+    background-image: url("imgs/arrow.png");
     margin-left: 10px;
     width: 21px;
     height: 15px;
@@ -271,7 +271,7 @@ body{
 .download_pdf::after{
     content: '';
     display: inline-block;
-    background-image: url("/imgs/arrow.png");
+    background-image: url("imgs/arrow.png");
     margin-left: 10px;
     width: 21px;
     height: 15px;
